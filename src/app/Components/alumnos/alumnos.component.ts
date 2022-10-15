@@ -50,6 +50,9 @@ export class AlumnosComponent implements OnInit {
       console.log('Te logueaste como administrador')
     }else {
       if(alumno.length > 0){
+        this.displayedColumns.pop();
+        this.admin = false;
+        this.alumno = true;
         return;
       }{
         this.datasource.unshift(userLogueado);
