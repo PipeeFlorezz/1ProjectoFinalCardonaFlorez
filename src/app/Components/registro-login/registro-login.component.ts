@@ -27,6 +27,7 @@ export class RegistroLoginComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log(document.querySelector('.acceder'));
   }
 
   formUsuario(primerForm: NgForm){
@@ -59,7 +60,7 @@ export class RegistroLoginComponent implements OnInit {
       localStorage.setItem('usuarioLogueado', JSON.stringify(this.admin));
     }
     setTimeout(() => {
-      document.querySelector('.acceder')?.classList.remove('acceder');
+      document.querySelector('.acceder')?.classList.add('cerrar');
     }, 300);
     this.router.navigate(['/alumnos']);
   }
@@ -76,7 +77,7 @@ export class RegistroLoginComponent implements OnInit {
       localStorage.setItem('usuarioLogueado', JSON.stringify(this.alumno));
     }
     setTimeout(() => {
-      document.querySelector('.acceder')?.classList.remove('acceder');
+      document.querySelector('.acceder')?.classList.add('cerrar');
     }, 300);
     this.router.navigate(['/alumnos']);
   }

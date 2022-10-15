@@ -1,7 +1,7 @@
 import { variable } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit, DoCheck } from '@angular/core';
 import { Admin, alumno } from 'src/app/models/data';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -14,7 +14,9 @@ export class HeaderComponent implements OnInit, DoCheck{
   public alumno: boolean;
   public Admin: Admin
   public Alumno: alumno
-  constructor() { 
+  constructor(
+    private router: Router
+  ) { 
     this.Admin = {nombre: '', clave: ''};
     this.Alumno = {nombre: '', apellido: '', edad: 0, pais: '', sexo: ''};
     this.usuarioLogueado = {nombre: 'incognito', clave: '123'};
@@ -49,6 +51,13 @@ export class HeaderComponent implements OnInit, DoCheck{
 
     }
 
+  }
+
+  desloguearse(){
+    localStorage.removeItem('usuarioLogueado');
+    setTimeout(() => {
+      this.router.navigate(['/']);
+    }, 1200);
   }
 
 }

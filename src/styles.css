@@ -34,6 +34,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: 'whi
     width: 100%;
 }
 
+.cerrar {
+    display: none !important;
+}
+
+.abrir {
+    display: flex !important;
+}
+
 
 
     @media screen and (min-width:768px) {
