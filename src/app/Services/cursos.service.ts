@@ -38,7 +38,8 @@ export class CursosService {
           }
           
       ],
-      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642366/cocina_qujbir.jpg'
+      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642366/cocina_qujbir.jpg',
+      inscripcion: true
   },{
   
       profesor: 'Juan Pablo Montoya',
@@ -62,7 +63,8 @@ export class CursosService {
           },
           
       ],
-      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642393/formula1_ofrsod.webp'
+      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642393/formula1_ofrsod.webp',
+      inscripcion: false
   },{
   
       profesor: 'Ramiro Garcia',
@@ -105,10 +107,18 @@ export class CursosService {
               edad: 69,
               pais: 'Colombia',
               sexo: 'Masculino'
+          },
+          {
+              nombre: 'Pedro',
+              apellido: 'Aguirre',
+              edad: 39,
+              pais: 'Argentina',
+              sexo: 'Masculino'
           }
           
       ],
-      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642413/trading_raw1qk.webp'
+      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642413/trading_raw1qk.webp',
+      inscripcion: false
   },{
   
       profesor: 'Ramiro Garcia',
@@ -122,6 +132,13 @@ export class CursosService {
               edad: 64,
               pais: 'Colombia',
               sexo: 'Masculino'
+          },
+          {
+              nombre: 'Manuela',
+              apellido: 'Ramirez',
+              edad: 22,
+              pais: 'Colombia',
+              sexo: 'Femenino'
           },
           {
   
@@ -144,9 +161,17 @@ export class CursosService {
               edad: 29,
               pais: 'Guatemala',
               sexo: 'Femenino'
+          },
+          {
+              nombre: 'Pedro',
+              apellido: 'Aguirre',
+              edad: 39,
+              pais: 'Argentina',
+              sexo: 'Masculino'
           }
       ],
-      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642456/ejercicioencasa_u3zvyf.jpg'
+      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642456/ejercicioencasa_u3zvyf.jpg',
+      inscripcion: true
   },{
   
       profesor: 'Alfredo Montañez',
@@ -162,7 +187,8 @@ export class CursosService {
               sexo: 'Masculino'
           }
       ],
-      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642424/quimica_rtfl24.jpg'
+      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642424/quimica_rtfl24.jpg',
+      inscripcion: false
   },
   {
   
@@ -187,7 +213,8 @@ export class CursosService {
           },
           
       ],
-      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642434/filoosofia_km2hhx.jpg'
+      imagen: 'https://res.cloudinary.com/dziadnwao/image/upload/v1665642434/filoosofia_km2hhx.jpg',
+      inscripcion: true
   }]
    }
 

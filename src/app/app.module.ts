@@ -14,6 +14,8 @@ import { CursoProfileComponent } from './Components/curso-profile/curso-profile.
 import { InscribirEstudianteComponent } from './Components/inscribir-estudiante/inscribir-estudiante.component';
 import { EliminarAlumnoComponent } from './Components/eliminar-alumno/eliminar-alumno.component';
 import { RegistroLoginComponent } from './Components/registro-login/registro-login.component';
+import { BooleanTextoPipe } from './Pipes/boolean-texto.pipe';
+import { ColorFondoDirective } from './Directivas/color-fondo.directive';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { RegistroLoginComponent } from './Components/registro-login/registro-log
     CursoProfileComponent,
     InscribirEstudianteComponent,
     EliminarAlumnoComponent,
-    RegistroLoginComponent
+    RegistroLoginComponent,
+    BooleanTextoPipe,
+    ColorFondoDirective
   ],
   imports: [
     BrowserModule,

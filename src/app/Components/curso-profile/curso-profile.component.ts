@@ -30,7 +30,8 @@ export class CursoProfileComponent implements OnInit {
       inicia: new Date(),
       finaliza: new Date(),
       estudiantes: [{ nombre: '', apellido: '', edad: 0, pais: '', sexo: '' }],
-      imagen: ''
+      imagen: '',
+      inscripcion: true
     }
   }
 

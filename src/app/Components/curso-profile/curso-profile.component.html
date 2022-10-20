@@ -67,13 +67,14 @@
                     <span>Estudiantes: {{curso.estudiantes.length}}</span>
                     <span>Inicia: {{curso.inicia | date}}</span>
                     <span>Finaliza: {{curso.finaliza | date}}</span>
+                    <span>Inscripción: {{curso.inscripcion | booleanTexto: 'Inscripcion abierta': 'Inscripcion cerrada'}}</span>
                 </p>
             </mat-card-content>
 
             <mat-card-actions>
                 <div class="d-grid">
                     <button mat-button class="btn btn-success btn-lg" 
-                    (click)="openDialog()">Comprar ahora</button>
+                    (click)="openDialog()">Inscribirme</button>
                 </div>
             </mat-card-actions>
 

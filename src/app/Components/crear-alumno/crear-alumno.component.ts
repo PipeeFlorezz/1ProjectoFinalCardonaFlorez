@@ -30,8 +30,12 @@ export class CrearAlumnoComponent implements OnInit {
 
   crearAlumno(){
     console.log(this.formAlumno.value);
-    let data:any = this.formAlumno.value;
-    console.log(data);
+    let sexo: any, data:any = this.formAlumno.value;
+    console.log(data)
+    sexo = data.sexo.toLocaleLowerCase()
+    console.log(sexo);
+    data.sexo = sexo;
+    console.log(data)
     this.matDialogRef.close(data)
   }
 

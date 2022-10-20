@@ -14,7 +14,8 @@ export interface Curso {
     inicia: Date,
     finaliza: Date,
     estudiantes: alumno[],
-    imagen: String
+    imagen: String,
+    inscripcion: boolean
 }
 
 export interface Admin {

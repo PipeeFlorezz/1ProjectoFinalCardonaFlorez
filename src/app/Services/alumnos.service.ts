@@ -16,6 +16,13 @@ export class AlumnosService {
       edad: 43,
       pais: 'Colombia', 
       sexo: 'Masculino'
+    },
+    {
+        nombre: 'Manuela',
+        apellido: 'Ramirez',
+        edad: 22,
+        pais: 'Colombia',
+        sexo: 'Femenino'
     },{
       nombre: 'Manuela',
       apellido: 'Rios Velez',
@@ -41,6 +48,13 @@ export class AlumnosService {
       edad: 69,
       pais: 'Colombia',
       sexo: 'Masculino'
+    },
+    {
+        nombre: 'Pedro',
+        apellido: 'Aguirre',
+        edad: 39,
+        pais: 'Argentina',
+        sexo: 'Masculino'
     }
     ]
   }
