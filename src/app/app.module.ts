@@ -16,6 +16,8 @@ import { EliminarAlumnoComponent } from './Components/eliminar-alumno/eliminar-a
 import { RegistroLoginComponent } from './Components/registro-login/registro-login.component';
 import { BooleanTextoPipe } from './Pipes/boolean-texto.pipe';
 import { ColorFondoDirective } from './Directivas/color-fondo.directive';
+import { EditarCursoComponent } from './Components/editar-curso/editar-curso.component';
+import { EliminarCursoComponent } from './Components/eliminar-curso/eliminar-curso.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ColorFondoDirective } from './Directivas/color-fondo.directive';
     EliminarAlumnoComponent,
     RegistroLoginComponent,
     BooleanTextoPipe,
-    ColorFondoDirective
+    ColorFondoDirective,
+    EditarCursoComponent,
+    EliminarCursoComponent
   ],
   imports: [
     BrowserModule,

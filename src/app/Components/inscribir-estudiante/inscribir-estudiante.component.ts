@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { FormBuilder, FormArray, FormControl, Validators, ValidatorFn, AbstractControl, FormGroup } from '@angular/forms'
+import { CursosService } from 'src/app/Services/cursos.service';
+import { Subscription } from 'rxjs';
+import { alumno, Curso } from 'src/app/models/data';
 
 @Component({
   selector: 'app-inscribir-estudiante',

@@ -25,6 +25,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; color: 'whi
         color: white;
     }
 
+.header ul li:first-child {
+        cursor: none !important;
+    }
+
 .header ul li a {
         text-decoration: none;
         color: white;

@@ -1,4 +1,5 @@
 export interface alumno {
+    id: number,
     nombre: String,
     apellido: String,
     edad: Number,
@@ -9,6 +10,7 @@ export interface alumno {
 
 
 export interface Curso {
+    id: number,
     profesor: String,
     nombre: String,
     inicia: Date,

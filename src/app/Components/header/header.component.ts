@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit, DoCheck{
     private router: Router
   ) { 
     this.Admin = {nombre: '', clave: ''};
-    this.Alumno = {nombre: '', apellido: '', edad: 0, pais: '', sexo: ''};
+    this.Alumno = {id: 0, nombre: '', apellido: '', edad: 0, pais: '', sexo: ''};
     this.usuarioLogueado = {nombre: 'incognito', clave: '123'};
     this.admin = true;
     this.alumno = false;
